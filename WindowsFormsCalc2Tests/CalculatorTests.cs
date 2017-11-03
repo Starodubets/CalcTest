@@ -27,7 +27,7 @@ namespace WindowsFormsCalc2
         [TestMethod()]
         public void funct_calcTest14()
         {
-            int res = Form1.Calculator.funct_calc(6, 3, '*');
+            int res = Form1.Calculator.funct_calc(6, 3, '/');
             Assert.AreEqual(2, res); ;
         }
     }
