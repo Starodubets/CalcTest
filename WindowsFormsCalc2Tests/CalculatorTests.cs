@@ -1,34 +1,27 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+//using WindowsFormsCalc2.Form1;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace WindowsFormsCalc2
+namespace WindowsFormsCalc2 //.Form1.Tests
 {
     [TestClass()]
     public class CalculatorTests
     {
+        [DataTestMethod]
+        [DataRow(1, 2, '+', 3)]
+        [DataRow(1, 2, '*', 2)]
+        [DataRow(1, 2, '-', -1)]
+        [DataRow(2, 2, '/', 1)]
+
         [TestMethod()]
-        public void funct_calcTest11()
+        public void funct_calcTest(int a, int b, char op, int exp)
         {
-            int res = Form1.Calculator.funct_calc(1, 2, '+');
-            Assert.AreEqual(3, res); ;
-        }
-        [TestMethod()]
-        public void funct_calcTest12()
-        {
-            int res = Form1.Calculator.funct_calc(5, 2, '-');
-            Assert.AreEqual(3, res); ;
-        }
-        [TestMethod()]
-        public void funct_calcTest13()
-        {
-            int res = Form1.Calculator.funct_calc(3, 2, '*');
-            Assert.AreEqual(6, res); ;
-        }
-        [TestMethod()]
-        public void funct_calcTest14()
-        {
-            int res = Form1.Calculator.funct_calc(6, 3, '/');
-            Assert.AreEqual(2, res); ;
+            int res = Form1.Calculator.funct_calc(a, b, op);
+            Assert.AreEqual(exp, res); ;
         }
     }
 }
