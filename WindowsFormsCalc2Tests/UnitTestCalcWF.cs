@@ -19,7 +19,7 @@ namespace UnitTestProjectCalc_WF
          public static void ClassSetup(TestContext e)
          {
            // application = new Application();
-             Application application = Application.Launch(@"E:\work\Calculator\WindowsFormsCalc2\WindowsFormsCalc2\bin\Debug\WindowsFormsCalc2.exe");
+             Application application = Application.Launch(@"WindowsFormsCalc2/bin/Debug/WindowsFormsCalc2.exe");
              
          }
 
@@ -44,7 +44,7 @@ namespace UnitTestProjectCalc_WF
         [TestMethod]
         public void TestMethodOp(string a, string b, string op, string exp)
         {
-            Application application = Application.Launch(@"E:\work\Calculator\WindowsFormsCalc2\WindowsFormsCalc2\bin\Debug\WindowsFormsCalc2.exe");
+            Application application = Application.Launch(@"CalcTest\WindowsFormsCalc2\bin/Debug\WindowsFormsCalc2.exe");
             Window window = application.GetWindows()[0];
             window.Get<Button>(SearchCriteria.ByAutomationId(a)).Click();
             window.Get<Button>(SearchCriteria.ByAutomationId(op)).Click();
