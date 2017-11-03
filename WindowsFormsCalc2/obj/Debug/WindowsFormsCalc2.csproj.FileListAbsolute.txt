@@ -27,3 +27,13 @@ D:\courses\WindowsFormsCalc2\WindowsFormsCalc2\WindowsFormsCalc2\obj\Debug\Windo
 D:\courses\WindowsFormsCalc2\WindowsFormsCalc2\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.csproj.CoreCompileInputs.cache
 D:\courses\WindowsFormsCalc2\WindowsFormsCalc2\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.exe
 D:\courses\WindowsFormsCalc2\WindowsFormsCalc2\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.pdb
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\bin\Debug\WindowsFormsCalc2.exe.config
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\bin\Debug\WindowsFormsCalc2.exe
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\bin\Debug\WindowsFormsCalc2.pdb
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.Form1.resources
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.Properties.Resources.resources
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.exe
+C:\Users\Student\Desktop\STAR\3.11\Calc\CalcTest\WindowsFormsCalc2\obj\Debug\WindowsFormsCalc2.pdb
