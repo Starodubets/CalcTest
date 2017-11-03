@@ -19,7 +19,7 @@ namespace UnitTestProjectCalc_WF
          public static void ClassSetup(TestContext e)
          {
            // application = new Application();
-             Application application = Application.Launch(@"E:\work\Calculator\WindowsFormsCalc2\WindowsFormsCalc2\bin\Debug\WindowsFormsCalc2.exe");
+             Application application = Application.Launch(@"WindowsFormsCalc2/bin/Debug/WindowsFormsCalc2.exe");
              
          }
 
