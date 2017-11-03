@@ -6,17 +6,11 @@ namespace WindowsFormsCalc2
     [TestClass()]
     public class CalculatorTests
     {
-        [DataTestMethod]
-        [DataRow(1, 2, '+', 3)]
-        [DataRow(1, 2, '*', 2)]
-        [DataRow(1, 2, '-', -1)]
-        [DataRow(2, 2, '/', 1)]
-
         [TestMethod()]
-        public void funct_calcTest(int a, int b, char op, int exp)
+        public void funct_calcTest11()
         {
-            int res = Form1.Calculator.funct_calc(a, b, op);
-            Assert.AreEqual(exp, res); ;
+            int res = Form1.Calculator.funct_calc(1, 2, '+');
+            Assert.AreEqual(3, res); ;
         }
     }
 }
